@@ -30,7 +30,27 @@ h2{
     position: absolute;
     z-index: 1;
     right: 100px;
-    top: 230px;
-    border: 
+    top: 230px; 
 }
 
+.imgs-123{
+    width: 100px;
+    height: 100px;
+}
+
+section article{
+    display: inline-block;
+    width: 65vw;
+    height: 10vh;
+}
+
+aside{
+    display: inline-block;
+    width: 30vw;
+    height: 50vh;
+}
+
+nav a{
+    margin: 50px;
+    text-align: center;
+}
