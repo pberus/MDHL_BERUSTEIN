@@ -96,3 +96,12 @@ footer{
 #ul-allplay{
     list-style-type: circle;
 }
+
+#h1-gameinfo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#body-gameinfo{
+    margin: 30px;
+}
