@@ -73,3 +73,25 @@ footer{
     position: fixed;
     bottom: 0;
 }
+
+#header-rules{
+    text-align: center;
+}
+
+.rules-container-flex{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+#main-rules{
+    margin: 40px;
+}
+
+#ol-3fields{
+    list-style-type: lower-latin;
+}
+
+#ul-allplay{
+    list-style-type: circle;
+}
