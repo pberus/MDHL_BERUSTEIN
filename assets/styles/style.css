@@ -4,20 +4,20 @@
     box-sizing: border-box;
     }
 
-header{
+.header-index-about-contact{
     width: 100vw;
     height: 40vh; 
     background-image: url(../img/design1_image1.jpg);
     background-size: cover;
 }
-header h1{
+.headerh1-index-about-contact{
     position: absolute;
     z-index: 1;
     padding: 10px 0px 0px 0px;
     color: aliceblue;
 }
 
-h2{
+.sectionh2-index-about-contact{
     display: block;
     background-color: black;
     color: aliceblue;
@@ -42,15 +42,16 @@ h2{
 .container-nav{
     display: flex;
     flex-direction: column;
+    
 }
 
-article{
+.article-index-about-contact{
     width: 67vw;
     height: 45vh;
     border: 1px solid red;
 }
 
-aside{
+.aside-index-about-contact{
     width: 30vw;
     height: 45vh;
     border: 1px solid red;
@@ -62,7 +63,8 @@ aside{
     margin: 50px;
 } 
 
-nav a{
+
+#nav-a{
     margin-top: 20px ;
     text-align: center;
 }
