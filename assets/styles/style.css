@@ -33,24 +33,41 @@ h2{
     top: 230px; 
 }
 
-.imgs-123{
-    width: 100px;
-    height: 100px;
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
 }
 
-section article{
-    display: inline-block;
-    width: 65vw;
-    height: 10vh;
+.container-nav{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    width: 67vw;
+    height: 45vh;
+    border: 1px solid red;
 }
 
 aside{
-    display: inline-block;
     width: 30vw;
-    height: 50vh;
+    height: 45vh;
+    border: 1px solid red;
 }
 
-nav a{
+.imgs-123{
+    width: 100px;
+    height: 100px;
     margin: 50px;
+} 
+
+nav a{
+    margin-top: 20px ;
     text-align: center;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
 }
