@@ -69,10 +69,7 @@
     text-align: center;
 }
 
-footer{
-    position: fixed;
-    bottom: 0;
-}
+
 
 #header-rules{
     text-align: center;
@@ -104,4 +101,10 @@ footer{
 
 #body-gameinfo{
     margin: 30px;
+}
+
+
+
+footer{
+    bottom: 0;
 }
